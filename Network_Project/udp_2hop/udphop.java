@@ -27,7 +27,7 @@ class UDP_Hop
       {
          serverSocket.receive(receivePacket); //receive a packet from the client
         
-         InetAddress IPAddress = InetAddress.getByName("juan-Inspiron-7548"); //set the address of the server.
+         InetAddress IPAddress = InetAddress.getByName("localhost"); //set the address of the server.
          //create a packet for sending with the data receive from the client together with the
          //appropriate address and port number.
          DatagramPacket sendPacket = 

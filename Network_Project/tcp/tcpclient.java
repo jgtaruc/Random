@@ -39,7 +39,7 @@ class TCP_Client
 			{
 					try
 					{
-						Socket clientSocket = new Socket("juan-Inspiron-7548", 1234); //create a socket for sending.
+						Socket clientSocket = new Socket("localhost", 1234); //create a socket for sending.
 						DataOutputStream outToServer = 
 							new DataOutputStream(clientSocket.getOutputStream()); //create a stream for writing the
 																			      //data to the server socket.

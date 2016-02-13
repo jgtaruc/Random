@@ -23,7 +23,7 @@ class TCP_Hop
                                                                     //for reading.
             stream.read(receivedData); //read the data in the stream.
 
-            Socket toServerSocket = new Socket("juan-Inspiron-7548", 4321); //create a socket
+            Socket toServerSocket = new Socket("localhost", 4321); //create a socket
                                                                         //for sending to server.
             //create a stream for writing the data to the server socket.
             DataOutputStream outToServer = 

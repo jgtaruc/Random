@@ -36,7 +36,7 @@ class UDP_Client
 		//clientSocket, IPAddress, sendPacket needs to be declared final since it is being
 		//accessed within innerclass Timer
 		final DatagramSocket clientSocket = new DatagramSocket(); //create a socket for sending
-		final InetAddress IPAddress = InetAddress.getByName("juan-Inspiron-7548"); //assign the address where the data
+		final InetAddress IPAddress = InetAddress.getByName("localhost"); //assign the address where the data
 																			       //will be sent.
 		//create a packet that will be sent from the clientSocket with the data generated
 		//and with the specified address and port number.
