@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title> Conditionals </title>
+	</head>
+
+	<body>
+		{{ if .Is_even }}
+			<h2> {{ .Number }} is even. </h2>
+		{{ else }}
+			<h2> {{ .Number }} is odd. </h2>
+		{{ end }}
+	</body>
+</html>

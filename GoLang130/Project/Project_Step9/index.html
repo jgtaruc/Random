@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title> CSCI 130 Project Step9   </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+    	{{if .State}}
+    		<form method="POST">
+    			<h1>Edit {{.Name}}'s Profile</h1>
+        		<label>User Name: </label><input value="{{.Name}}" type="text" name="user_name" required></input>
+        		<br><br>
+        		<label>Password: </label><input value="{{.Password}}"type="password" name="password" required></input>
+        		<br><br>
+        		<button type="submit">Save</button>
+        	</form>
+   			<a href="/logout">Logout</a>
+    	{{else}}
+    		<a href="/login">Please Login</a>
+    	{{end}}
+    </body>
+
+</html>
