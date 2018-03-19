@@ -1,2 +1,1 @@
-# Random
-# Some of my class assignments
+Some of my previous class assignments
